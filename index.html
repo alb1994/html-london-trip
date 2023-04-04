@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+        <header>
         <h1><b>IL MIO VIAGGIO A LONDRA</b></h1>
         <img src="./img/img_superiore_1.jpg" alt="">
         <img src="./img/img_superiore_2.jpg" alt="">
@@ -17,56 +17,74 @@
     <main>
         <div>
             <h2><b>LE MIE SPESE</b></h2>
-            <TABLe><!--Inizio tabella spese-->
-                <THead>
-                    <TR>
-                        <TH><H4><B>NUMERO</B></H4></TH>
-                        <TH><H4><B>DESCRIZIONE</B></H4></TH>
-                        <TH><H4><B>CONTO</B></H4></TH>
-                    </TR>
-                </THead>
+            <TABLe><!--inizio tabella-->
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Titolo</th>
+                    </tr>
+                </thead>
                 <tbody>
-                    <TR><TD>1</TD><TD>BIGLIETTO AEREO</TD><TD>120€</TD></TR>
-                    <TR><TD>1</TD><TD>BIGLIETTO AEREO</TD><TD>120€</TD></TR>
-                    <TR><TD>1</TD><TD>BIGLIETTO AEREO</TD><TD>120€</TD></TR>
+                    <tr>
+                        <td>1</td>
+                        <td>biglietto aereo</td>
+                        <td>120&#8364;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>biglietto aereo</td>
+                        <td>120&#8364;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>biglietto aereo</td>
+                        <td>120&#8364;</td>
+                    </tr>
                 </tbody>
-                <tfoot>
-                        <TR><TD><H5><B>TOTALE</B></H5></TD><TD></TD><TD>360€</TD></TR>
-                </tfoot>
-            </TABLe><!--fine tabella spese-->
+                <TFoot>
+                    <tr>
+                        <td colspan="2">Totale</td>
+                        <td>360&#8364;</td>
+                    </tr>
+                </TFoot>
+            </TABLe><!--fine-tabella-->
         </div>
         <hr>
-        <DIV>
+        <DIV><!--inizio-lista-non-numerata-->
             <H2><B>COSA FARE</B></H2>
-            <UL>
-                <LI>VISITARE LA TOWER O LONDON</LI>
-                <LI>VISITITARE GREENWITCH</LI>
-                <LI>ASCOLTARE UN ARTISTA DI STRADA A COVENT GARDEN</LI>
-                <LI>MANGIARE IL TIPICO FISH AND CHIPS INGLESE</LI>
-            </UL>
-        </DIV>
+            <ul>
+                <li>VISITARE LA TOWER O LONDON &cross;</li>
+                <li>VISITITARE GREENWITCH &check;</li> 
+                <li>ASCOLTARE UN ARTISTA DI STRADA A COVENT GARDEN &cross;</li>
+                <li>MANGIARE IL TIPICO FISH AND CHIPS INGLESE &check;</li>
+            </ul>
+        </DIV><!--fine-lista-non-numerata-->
         <hr>
-        <DIV>
+        <DIV><!--inizio-lista-numerata-->
             <H2><B>INFO UTILI</B></H2>
             <OL>
-                <LI>NUMERI UTILI DI EMERGENZA</LI>
+                <LI>NUMERI UTILI DI EMERGENZA
                     <UL>
                         <LI><b>999</b>-EMERGENZA</LI>
                         <LI><b>101</b>-NUMERO POLIZIA</LI>
                         <LI><b>111</b>-NUMERO ASSISTENZA CREDITI</LI>
-                    </UL>        
-                <LI>HOTEL</LI>
+                    </UL>   
+                </LI>
+                <LI>HOTEL
                     <UL>
                         <LI><b>NOME HOTEL</b>:BUCKINGHAM PALACE</LI>
                         <LI><b>INDIRIZZO HOTEL</b>:WESTRMINSTER, LONDON SWA1 1AA, REGNO UNITO</LI>
                     </UL>
-                <LI>AEREO</LI>
+                </LI>
+                <LI>AEREO
                     <UL>
                         <LI><b>VOLO ANDATA</b>:Y1234X ORE 9:30 DA MILANO MALPENSA</LI>
                         <LI><b>VOLO RITORNO</b>:Y1236X ORE 18:30 DA LONDON HEATHOROW</LI>
                     </UL>
+                </li>
             </OL>
-        </DIV>
+        </DIV><!--fine-lista-numerata-->
         <hr>
         <div>
             <H2><B>LE FOTO</B></H2>
@@ -75,4 +93,5 @@
         </div>
     </main>
     <hr>
+</body>
 </html>
